@@ -1,0 +1,20 @@
+En el head llevan metadatos q se van a utiliza hojas de estilos scrips
+
+<meta charset="utf-8"> para decirle q vamos a utilizar caracteres latinos
+
+<meta name="author"....> para decirle del contenido q vamos a tener el pagina
+
+<meta name="description".....>  para decirle la descripcion de lo q va a contener la pagina web
+
+<meta name="keywords" content.....> para que el navegador verifique palabras claves con las q puedan encontrar la pagina en una busqueda
+
+tittle = titulo
+
+link rel="icon" href="direccion" para el icono de la pagina
+
+<table> para crear tablas
+tr para crear filas
+th dentro de tr para las columnas
+
+meter para representar graficos de un minimo y un maximo de numeros
+progres para q se vea mas bonito y para q otros navegadores reconzcan las barras de numeros de max y min

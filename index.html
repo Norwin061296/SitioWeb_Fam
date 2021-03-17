@@ -17,7 +17,7 @@
                 display: inline-flex;  
             }
             .barraprinc{
-                margin-left: 450px; 
+                margin-left: 300px; 
             }
             .menu1{
                 display: inline-flex;
@@ -42,7 +42,29 @@
                 color: #259BFA;
             }
           /*********************fin barra principal*********************/ 
-          
+          #barranav2{
+            background-color: #efb810;
+                margin-top: 20px;
+                width: 100%;
+                height: 100%;
+                display: inline-flex;     
+          }
+          .barrasecu{
+            margin-left: 500px;
+            
+          }
+          .lista2{
+            display: inline-flex;
+            list-style:none;
+            
+            
+          }
+          .lista2 li{
+            width: 100px;  margin: 2px;
+                margin-top: 0px;
+               /* border: red 5px solid;*/
+                
+          }
         </style>
     </head>
     <body>
@@ -51,9 +73,6 @@
                 <a href="#">
                  <img src="imagenes/logopri.png" class="prilogo">
                 </a>
-                 <h1 class="tituloprinc">
-                      Dragons
-                  </h1>
                
              <!--#aqui inicia el primer menu-->
                  <nav class="barraprinc">
@@ -86,7 +105,7 @@
         </header>
         <div id="barranav2">
             <nav class="barrasecu">
-                <ul>
+                <ul class="lista2">
                     <li>
                         <a href="#">Inicio</a>
                     </li>
@@ -103,40 +122,15 @@
             </nav>
         </div>
             
-           <center>
-               <h1>Formulario</h1>
-               <form>
-                   <label for="usuario">Usuario</label>
-                   <input id="usuario" type="text" placeholder="Nombre de Usuario" value="" required>
+          <div class="rotarimage">
+              <center>
+                <figure>
+                    <img src="imagenes/zelda.jpg">
+                </figure>
+                <figcaption>Mis Imagenes</figcaption>
+              </center>
 
-                   <br>
-                   <br>
-
-                   <label for="correo">Correo Electronico</label>
-                   <input id="correo" type="email" placeholder="Ingrese su Email" value="" required>
-
-                   <br>
-                   <br>
-                   
-                   <label for="contra">Contraseña</label>
-                   <input id="contra" type="password" placeholder="Ingrese su Contraseña" value="" required>
-
-                   <br>
-                   <br>
-
-                   <select>
-                       <option>opcion 1</option>
-                       <option>opcion 2</option>
-                       <option>opcion 3</option>
-                   </select>
-
-                   <br>
-                   <br>
-
-                   <input type="submit" value="Registrarse">
-
-               </form>
-            </center>
+          </div>
         
         <section class="seccionpri">
             <div id="audiosvideo">
@@ -153,13 +147,44 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.1795185873201!2d-86.26978721628336!3d12.13143204440839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7155e45947c2c5%3A0x8eaf963e036e7444!2sUniversidad%20Nacional%20de%20Ingenier%C3%ADa%20(UNI)!5e0!3m2!1ses!2sni!4v1615187657842!5m2!1ses!2sni" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
-        <aside>
-          
-        </aside>
-
         <article>
 
         </article>
+
+        <center>
+            <h1>Formulario</h1>
+            <form>
+                <label for="usuario">Usuario</label>
+                <input id="usuario" type="text" placeholder="Nombre de Usuario" value="" required>
+
+                <br>
+                <br>
+
+                <label for="correo">Correo Electronico</label>
+                <input id="correo" type="email" placeholder="Ingrese su Email" value="" required>
+
+                <br>
+                <br>
+                
+                <label for="contra">Contraseña</label>
+                <input id="contra" type="password" placeholder="Ingrese su Contraseña" value="" required>
+
+                <br>
+                <br>
+
+                <select>
+                    <option>opcion 1</option>
+                    <option>opcion 2</option>
+                    <option>opcion 3</option>
+                </select>
+
+                <br>
+                <br>
+
+                <input type="submit" value="Registrarse">
+
+            </form>
+         </center>
 
        
     </body>

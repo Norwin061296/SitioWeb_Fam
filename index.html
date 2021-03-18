@@ -37,34 +37,73 @@
             }
             a{
                 text-decoration: none;
+                color: #fff;
             }
             h1{
                 color: #259BFA;
             }
           /*********************fin barra principal*********************/ 
           #barranav2{
-            background-color: #efb810;
-                margin-top: 20px;
-                width: 100%;
-                height: 100%;
-                display: inline-flex;     
+              margin-top: 10px;
+              width: 100%;
+              background: #efb810;
           }
-          .barrasecu{
-            margin-left: 500px;
-            
+          #btnmenu{
+              display: none;
           }
-          .lista2{
-            display: inline-flex;
-            list-style:none;
-            
-            
+          #barranav2 label{
+            display: none;
+            width: 30px;
+            height: 30px;
+            padding: 10px;
+            border-right: 1px solid #fff;
           }
-          .lista2 li{
-            width: 100px;  margin: 2px;
-                margin-top: 0px;
-               /* border: red 5px solid;*/
-                
+          #barranav2 label:hover{
+              cursor: pointer;
+              background: rgba(0, 0, 0, 0.3);
           }
+          .menu2 ul{
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+          }
+          .menu2 li{
+              border-right: 1px solid #fff;
+              border-left: 1px solid #fff;
+          }
+          .menu2 li a{
+              display: block;
+              padding: 15px 20px;
+          }
+          .menu2 li:hover{
+              background: rgba(0, 0, 0, 0.3);
+          }
+
+          /**************************tema nuevo intro a responsive************************************/
+          @media (max-width:768px){
+              #barranav2 label{
+                  display: block;
+              }
+              .menu2{
+                  position: absolute;
+                  background: #efb810;
+                  width: 70%;
+                  margin-left: -70%;
+                  transition: all 0.5s;
+              }
+              .menu2 ul{
+                flex-direction: column;
+              }
+              .menu2 li{
+                  border-top: 1px solid #fff;
+              }
+              #btnmenu:checked ~ .menu2{
+                  margin: 0;
+              }
+          }
+          /***************************fin tema practica responsive***********************************/
         </style>
     </head>
     <body>
@@ -104,8 +143,10 @@
             </div>
         </header>
         <div id="barranav2">
-            <nav class="barrasecu">
-                <ul class="lista2">
+            <input type="checkbox" id="btnmenu">
+            <label for="btnmenu"><img class="seculogo" src="imagenes/menu.png" alt=""></label>
+            <nav class="menu2">
+                <ul>
                     <li>
                         <a href="#">Inicio</a>
                     </li>

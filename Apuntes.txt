@@ -18,3 +18,11 @@ th dentro de tr para las columnas
 
 meter para representar graficos de un minimo y un maximo de numeros
 progres para q se vea mas bonito y para q otros navegadores reconzcan las barras de numeros de max y min
+
+
+selector uniersal para formatear los estilos por defecto del navegador
+*{
+ margin:0;
+ padding:0;
+ list-style:none;
+}

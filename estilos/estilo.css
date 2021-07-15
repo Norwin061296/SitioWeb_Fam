@@ -11,4 +11,29 @@
     width: 30px; 
     height: 30px;
 }
+.tercemenu{
+    background-color: #efb810;
+                margin: 0px;
+                width: 100%;
+                height: 100%;
+                display: inline-flex; 
+}
+.tercemenu ul li a{
+    color: black;
+    
+    
+}
+
+.cambiard{
+   
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: blue;
+    
+
+}
+.tercemenu ul{
+    list-style: none;
+    display: inline-flex;
+}
 
